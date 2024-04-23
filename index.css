@@ -1,0 +1,35 @@
+body {
+  background-image: url(./images/banner-initial.png);
+  background-attachment: fixed;
+}
+.accordion-button::after {
+  background-image: url(./images/add.svg);
+}
+.accordion-button {
+  background-color: #303030;
+  color: white;
+}
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: #303030;
+}
+.accordion-item {
+  border: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(./images/add.svg);
+}
+
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 60px;
+}
+
+.margens {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

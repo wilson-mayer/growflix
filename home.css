@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./images/growcast-01.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: local;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.show-body {
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+.show-body:hover > div {
+  display: block;
+}
+.show-body > div {
+  display: none;
+}
+.show-body:hover {
+  transform: scale(1.1);
+  z-index: 1;
+  position: absolute;
+}
+
+.col-movies {
+  position: relative;
+  min-height: 200px;
+}
+
+.margens {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.border-footer {
+  height: 450px;
+  border-color: #515c6f !important;
+  padding-top: 40px;
+}
+.episodio1 {
+}
